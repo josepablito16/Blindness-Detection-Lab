@@ -1,6 +1,5 @@
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
-import pickle
 
 NOMBRE_MODELO='prueba'
 NUM_CLASES=3
@@ -33,3 +32,4 @@ history =model.fit(
 
 
 #GUARDAR MODELO
+model.save_weights(NOMBRE_MODELO)
