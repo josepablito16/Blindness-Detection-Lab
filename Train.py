@@ -1,13 +1,13 @@
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
 
-NOMBRE_MODELO='prueba'
-NUM_CLASES=3
+NOMBRE_MODELO='prueba-GPU'
+NUM_CLASES=5
 
 # Train
 train_datagen = ImageDataGenerator( rescale = 1.0/255. )
 
-train_dir='/home/jose/Descargas/Tensor/Train'
+train_dir='..\\train'
 train_generator = train_datagen.flow_from_directory(train_dir,
                                                     batch_size=20,
                                                     class_mode='binary',
