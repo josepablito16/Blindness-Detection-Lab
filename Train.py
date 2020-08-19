@@ -1,7 +1,6 @@
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
 
-
 NOMBRE_MODELO='grayscale'
 NUM_CLASES=5
 
