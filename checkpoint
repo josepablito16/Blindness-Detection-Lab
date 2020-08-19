@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 model_checkpoint_path: "min-size"
 all_model_checkpoint_paths: "min-size"
+=======
+model_checkpoint_path: "prueba"
+all_model_checkpoint_paths: "prueba"
+>>>>>>> 8ad62c5dcf8d297dcae2672e5395c97a65d8edc3
