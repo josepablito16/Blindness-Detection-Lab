@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 NOMBRE_MODELO='prueba'
-NUM_CLASES=3
+NUM_CLASES=5
 
 #CARGAR MODELO
 model = tf.keras.models.Sequential([tf.keras.layers.Flatten(input_shape=(150, 150,3)), 
@@ -13,7 +13,7 @@ model.load_weights(NOMBRE_MODELO)
 
 # Test
 test_datagen  = ImageDataGenerator( rescale = 1.0/255. )
-validation_dir='/home/jose/Descargas/Tensor/Test'
+validation_dir='..\\test'
 validation_generator =  test_datagen.flow_from_directory(validation_dir,
                                                          batch_size=20,
                                                          class_mode  = 'binary',

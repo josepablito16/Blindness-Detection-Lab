@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Archivos muy grandes
+min-size.data-00000-of-00001
