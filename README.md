@@ -1,7 +1,7 @@
 # Blindness-Detection-Lab
 
 Para este laboratorio se desarrolló tanto una red nueronal simple como una red neuronal de Deep learning para 
-la competencia (APTOS 2019 Blindness Detection)[https://www.kaggle.com/c/aptos2019-blindness-detection/discussion]
+la competencia [APTOS 2019 Blindness Detection](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion)
 
 ## Preprocesamiento de datos 
 Antes de entrenar un modelo debemos descargar la base de datos de kaggle y descomprimirla en una carpeta afuera del repositorio. 
@@ -14,3 +14,6 @@ Es necesario cambiar la variable *NOMBRE_MODELO* para poder guardar el modelo en
 ## Test de modelos
 Para realizar el test de un modelo se puede ejecutar el script *Test.py* para testear un modelo simple o *TestDeep.py* para 
 uno de Deep learning. Es necesario cambiar la variable *NOMBRE_MODELO* dentro de estos archivos para poder cargar el modelo que se desee.
+
+## Modelos realizados por nosotros
+En este repositorio no se encuentran todos los modelos hechos por nosotros, pues algunos son muy pesados como para ser subidos en github. Por ello, se pueden descargar de [este medio](https://drive.google.com/drive/folders/1aTbxeU3_qV5qujcTgDbVM07FrjNLfe5-?usp=sharing).
