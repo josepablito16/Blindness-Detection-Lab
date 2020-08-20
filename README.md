@@ -17,3 +17,8 @@ uno de Deep learning. Es necesario cambiar la variable *NOMBRE_MODELO* dentro de
 
 ## Modelos realizados por nosotros
 En este repositorio no se encuentran todos los modelos hechos por nosotros, pues algunos son muy pesados como para ser subidos en github. Por ello, se pueden descargar de [este medio](https://drive.google.com/drive/folders/1aTbxeU3_qV5qujcTgDbVM07FrjNLfe5-?usp=sharing).
+
+## Requerimientos: 
+* pip install tensorflow
+* pip install numpy
+* pip install Pillow
