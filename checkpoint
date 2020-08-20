@@ -1,2 +1,2 @@
-model_checkpoint_path: "grayscale"
-all_model_checkpoint_paths: "grayscale"
+model_checkpoint_path: "deep1"
+all_model_checkpoint_paths: "deep1"
