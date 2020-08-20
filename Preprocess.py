@@ -1,3 +1,11 @@
+'''
+  Autores: 
+  Jose Cifuentes
+  Oscar Juarez
+  Paul Belches
+
+  20/08/2020
+'''
 import os
 import numpy as np # linear algebra
 

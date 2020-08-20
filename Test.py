@@ -1,3 +1,11 @@
+'''
+  Autores: 
+  Jose Cifuentes
+  Oscar Juarez
+  Paul Belches
+
+  20/08/2020
+'''
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
